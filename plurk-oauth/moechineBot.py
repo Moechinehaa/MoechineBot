@@ -40,8 +40,8 @@ def dealContent(pid,content):
         con = random.choice(random_list)
         plurkResponse(pid, con)
  
-plurk = PlurkAPI('7dh6MYgh0saM', 'Uf7pQBLY4XAhfiq5U1Iz2CNgE9FoGewN')
-plurk.authorize('SRVQ2nnrDbT4', 'tZIL5juArHck1V5u4Z7I2xa5nXE9fqsm')
+plurk = PlurkAPI('', '')
+plurk.authorize('', '')
  
 comet = plurk.callAPI('/APP/Realtime/getUserChannel')
 comet_channel = comet.get('comet_server') + "&new_offset=%d"
